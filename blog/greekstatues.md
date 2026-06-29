@@ -14,7 +14,7 @@ I was recently intrigued by the following [Asmongold tweet](https://x.com/Asmong
 
 Particularly, I was intrigued by his claim that the number of Greek statues was "overwhelmingly men" (he also mentions "peak aesthetic form" but this is subjective). This brings up a good question. How many male and female Greek statues were there?
 
-TL;DR the answer is that around X% of Greek statues were male.
+TL;DR the answer is that around 38% of Greek statues were male.
 
 The easiest and most accurate way to figure this out would be to simply see if an academic source plainly lists this number. An academic source doesn't exist, as far as I can tell. If someone can find a better way to search for these sources, please email me (I'd like to know!). [[1](https://claude.ai/share/51179d70-25b0-44b9-bdcb-7275138c5f6c)] [[2](https://www.jstor.org/action/doAdvancedSearch?q0=percentage&q1=ratio&f0=all&c1=OR&f1=all&acc=on&c2=AND&q2=men%2C+greek%2C+sculpture&f2=all&so=rel)] [[3](https://www.jstor.org/action/doBasicSearch?Query=%22percentage%22+of+men+greek+statues&so=rel)] [[4](https://claude.ai/share/60e6953e-451b-4189-b3e4-6eb919e22f7d)]
 
