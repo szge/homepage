@@ -63,7 +63,7 @@ Also for sportsbooks: assuming you're making bets that have about even odds (50%
 
 #### Time Investment
 
-Okay, you've managed to gain $50! That's great. But did you spend ten minutes to make $50, or did you spend ten hours to make $50? In the latter case, it's probably not an activity worth doing. Therefore, it's good to have a general sense of how much time you must invest in order to earn your money. To give you a realistic idea of what you can expect, I estimate I've spent about **200 hours to earn $15k** on counter-gambling giving me an hourly rate of **$75/hr**, which is decent (although possibly less than what you could otherwise earn depending on your career).
+Okay, you've managed to gain $50! That's great. But did you spend ten minutes to make $50, or did you spend ten hours to make $50? In the latter case, it's probably not an activity worth doing. Therefore, it's good to have a general sense of how much time you must invest in order to earn your money. To give you a realistic idea of what you can expect, I estimate I've spent about **200 hours to earn $15k** on counter-gambling giving me an hourly rate of **$75/hr**, which is decent.
 
 In practice, this means that **for casino promotions you should gravitate towards "mines" or "crash" style games** (as long as this gameplay type counts towards your promotion requirements). These are the best casino games since they minimize time invested while also reducing variance (in general). These types of games allow you to bet an essentially arbitrary amount of money in a small amount of time. Let's say you have $200 you need to play through; it's better to play through that with eight $25 bets on the lowest-variance setting on mines (takes 5 minutes) rather than placing 1000 $0.20 bets on slots, which takes about an hour to do, while also producing higher variance.
 
@@ -91,6 +91,8 @@ In general, for single or parlays you want a profit boost of about 15-20% for ea
 | 2          | 30%                  |
 | 3          | 45%                  |
 
+**Note** Pricing bonus bets. Bonus bets are bets that give you winnings, excluding the original wager. For example, if you make a +100 odds bet with a $10 bonus bet, the bet will pay you $10 on a win, rather than the regular $20. Therefore, you should price the cash value of a bonus bet at "about half" of the bonus bet face value. For a rough calculation, a regular 50% bet would pay 1.8x on a win, while a bonus bet would only pay 0.8x; resulting in an EV of 0.9 for the regular bet but 0.4 for the bonus bet (aka "about half"). I made some mistakes early on by incorrectly pricing bonus bets, resulting in some marginal or -EV bets that I thought were +EV.
+
 **Promotion:** minimum 3 leg parlay, 25% profit boost
 
 **Should I take the promotion?** No. A three leg parlay will have an expected value of about $0.9^3 \approx 0.7$; a 25% profit boost on the payout would not push that number up over 1 ($EV \approx 1.8^3 \cdot 0.5^3 \cdot 1.25 = 0.91 < 1$)
@@ -98,6 +100,10 @@ In general, for single or parlays you want a profit boost of about 15-20% for ea
 **Promotion:** minimum 2 leg parlay, 30% profit boost
 
 **Should I take the promotion?** Yes. $EV \approx 1.8^2 * 0.5^2 * 1.3 = 1.05 > 1$
+
+**Promotion:** Make a $20 bet and get a $5 bonus bet
+
+**Should I take the promotion?** Probably not. The profit is pretty much nothing. You're expected to lose $2 from making the $20 bet (90%), and you're expected to gain $2 (~40% of the face value) from the bonus bet, resulting in a net gain/loss of $0.
 
 On one particular sportsbetting site, my total bets are $14,854.30 and my total winnings are $16,459.63, giving me an average profit per bet of about 10%, which lines up with the math. However, I know my net winnings from the site are about $2500 (rather than $1600), so I think it's not accounting for certain types of promotions like bet credits; therefore, my average profit is actually ~18%.
 
@@ -109,6 +115,9 @@ Both Casinos and Sportsbooks
 - Deposit via e-transfer to avoid cash-like withdrawal penalties from credit cards
 - Always read the terms and conditions to avoid -EV "promotions"
 - Sign-up bonuses can be pretty lucrative; refer to the previously-mentioned iGaming list
+- Most (>70%) platforms don't offer any meaningful promotions. Some (~20%) only offer decent sign-up bonuses, so the money is one-time.
+- Finally, a small minority (~10%) of the platforms, usually the large and popular ones, offer daily promotions that are pretty good. Bookmark these and check daily.
+- Sign up to the newsletters of the 30% of platforms with decent promotions. They'll often send you offers to your email inbox. I can earn about $500 on my birthday, which is the most profitable day of the year.
 
 Casinos
 
@@ -119,5 +128,6 @@ Casinos
 Sportsbooks
 
 - Stick to popular sports, teams, and bet types, to improve both the spread and the likelihood that the true probability of the bet matches the odds
+- Stick to bets with binary outcomes for similar reasons
 - Straight bets are the easiest to calculate since anything more than a 20% profit boost is generally profitable
 - For parlays, make sure you're getting at least a 15-20% profit boost for **each** leg
