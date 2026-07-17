@@ -6,7 +6,7 @@ Rebuild from scratch: `make clean && make`
 
 Watch for changes: `make watch`
 
-Blog posts are written as `.md` files in `blog/`. The title is derived from the filename.
+Blog posts are written as `.md` files in `blog/`. The title is derived from the filename by default, but you can also declare a title by adding a `title: Your Title` line at the top of the file (a pandoc YAML metadata field).
 
 Generated `.html` files in `blog/` are gitignored and are not committed. On
 every Vercel deployment, `build.sh` downloads a static pandoc binary (the
