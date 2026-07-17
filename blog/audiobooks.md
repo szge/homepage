@@ -2,8 +2,6 @@
 title: Audiobooks are not Reading
 ---
 
-test
-
 Contra [Philip Harker on Audiobooks](https://substack.com/inbox/post/199549032).
 
 Audiobooks are not Reading.
