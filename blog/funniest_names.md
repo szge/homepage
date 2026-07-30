@@ -2,7 +2,7 @@
 title: Who has the funniest name?
 ---
 
-During my weekly trivia night (shoutout to our host Ryan), I was enlightened with the knowledge that there once lived a man by the name [Preserved Fish](https://en.wikipedia.org/wiki/Preserved_Fish). I of course also recalled the famed mathematician Alexander Grothendieck. I endeavoured to find the person with the funniest name. I thought that it was definitely possible to write a program to aid me in this search. Apparently, I am the first person to use a programmatic approach to solve this problem (at least according to Claude), which comes as a shock to me, since the problem seems very tractable (when set up correctly).
+[Preserved Fish](https://en.wikipedia.org/wiki/Preserved_Fish). Alexander Grothendieck. During my weekly trivia night (shoutout to our host Ryan), I was enlightened as to the existence of people with funny names. I thus endeavoured to find the person with the funniest name. I thought that it was definitely possible to write a program to aid me in this search. Apparently, I am the first person to use a programmatic approach to solve this problem (at least according to Claude), which comes as a shock to me, since the problem seems very tractable (when set up correctly).
 
 All the code is open-source with an MIT license. You can get it [here](https://github.com/szge/funniest_name) and also find Python notebooks to follow along with the subsequent sections. Note that you want several GB of memory available to load the names dataset.
 
