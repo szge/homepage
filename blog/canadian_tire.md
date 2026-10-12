@@ -10,7 +10,7 @@ Aha, an idea. I'd walk into a Canadian Tire and leave with a succulent three-cou
 
 Was this even feasible? I worked with Claude to come up with a game plan. It browsed through the catalogue. You'd be surprised to learn at how much food is stocked at a supposed hardware store (would food be considered *soft*ware?). It turns out a lot of people go shopping at Canadian Tire for camping stuff, and thus it contained a solid selection of camping-style foods and snacks.
 
-I decided to finalize my goals for the trip. Beyond simply surviving on Canadian Tire food, I'd want to thrive on it. I wanted a meal that wouldn't disappoint a Michelin-guide critic. I'd have a main, a snack or side, and a drink. I'd finish with a nice dessert.
+I finalized my goals for the trip. Beyond simply surviving on Canadian Tire food, I'd want to thrive on it. I wanted a meal that wouldn't disappoint a Michelin-guide critic. I'd have a main, a snack or side, and a drink. I'd finish with a nice dessert.
 
 What remained was for me to actually execute on the idea. Would they even have the foods stocked? What would the selection be like? Would the food be any good? Would the cashier judge me for buying a pile of food from the hardware store? There was only one way to find out.
 
@@ -18,7 +18,7 @@ What remained was for me to actually execute on the idea. Would they even have t
 
 On a bored mid-August evening, I'd decided that this was the day. I took the subway down to the Eaton Centre Canadian Tire. If you weren't aware, I absolutely love looking at *stuff*, and Canadian Tire is the epitome of *stuff*. 
 
-I wandered around this huge store, and asked for assistance in locating the camping section. It was on the lower level, about two aisles worth of goods. I saw plenty of things: pots, pans, frying oil, folding chairs, portable stoves, luggable loos. All very wonderful and interesting objects that would be good finds on any other Canadian Tire excursion. Yet there was one obvious thing missing: food I could eat. I was about to call it quits, right when I saw it. *Shepherd's pie*. The last camping meal stocked in the section. I nearly leaped from my metaphorical chair (I'd have to fork out $12.99 for a real one, after discounts. A bit tight for my budget). Greedily, I yanked it from the shelf, to prevent any other shoppers from taking it while I was hunting for other foods. Little Timmy could go hungry on his camping trip for all I cared. Fuck you, Timmy.
+I wandered around this huge store, and asked for assistance in locating the camping section. It was on the lower level, about two aisles worth of goods. I saw plenty of things: pots, pans, frying oil, folding chairs, portable stoves, luggable loos. All very wonderful and interesting objects that would be good finds during any other Canadian Tire excursion. Yet there was one obvious thing missing: food I could eat. I was about to call it quits, right when I saw it. *Shepherd's pie*. The last camping meal stocked in the section. I nearly leaped from my metaphorical chair (I'd have to fork out $12.99 for a real one, after discounts. A bit tight for my budget). Greedily, I yanked it from the shelf, to prevent any other shoppers from taking it while I was hunting for other foods. Little Timmy could go hungry on his camping trip for all I cared. Fuck you, Timmy.
 
 ![Happy Yak Shepherd's Pie](./images/ct/shepherdspie.jpg)
 
@@ -34,7 +34,7 @@ Before heading out to pick up the final item (a drink) from the cashier area, I 
 
 You know that [scene](https://www.youtube.com/watch?v=1hyEnE1SwQA) from *500 Days of Summer* where Summer says she likes the Smiths$^1$? It was like that. *Holy shit*. This must have been what it felt like for Yeltsin to have visited that grocery store in Texas. What it must have been like for King Solomon to have received gifts from the Queen of Sheba$^2$. Or Dorothy stepping out into Technicolour. Et cetera.
 
-Hanging from the rack in front of me was the most extensive collection of camping food I had ever seen in my miserable twenty-five years of existence. Chinese. Mexican. Indian. You name it, they've got it. This is probably what they mean when they sing about a feast waiting for you in heaven at church.
+Hanging from the rack in front of me was the most extensive collection of camping food I had ever seen in my miserable twenty-five years of existence. Chinese. Mexican. Indian. If there's a group that people are bullying on xdotcom, they've probably got food from that culture. This is probably what they mean when they sing about a feast waiting for you in heaven at church.
 
 ![this image only captures a portion of the selection available!](./images/ct/food.jpg)
 
