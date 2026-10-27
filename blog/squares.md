@@ -126,6 +126,8 @@ We can easily solve $a = 15 - 6 - 2 = 7$ and similarly for $b$, $c$, and $e$. On
 
 Now, we have a semi-magic square: every row and column sums to 15 (we haven't checked the diagonals, and they don't have to work out).
 
+Okay, we have an algorithm, but how do we know if placing even numbers in this way always produces a valid solution, without leading to a contradiction? How do we know if our solution is exhautive? Indeed, we will show that not all placements of even numbers into an inscribed rectangle lead to a valid solution, and demonstrate which ones are valid.
+
 ***Lemma 4***. Starting from any valid square, swapping two rows, swapping two columns, or transposing the square (flipping the square along a diagonal) gives another valid square.
 
 ***Proof***. Swapping two rows leaves the contents of every column unchanged, so the column sums are unchanged, and the row sums are the same numbers in a different order. The same goes for swapping two columns. Transposing just exchanges the roles of rows and columns. In every case, the six sums are still all 15.
@@ -168,7 +170,7 @@ Only type (A) is valid (to verify this, try completing all of the squares yourse
 
 is the only valid configuration for the even numbers in a solution, up to swapping rows, swapping columns, and transposing.
 
-This is a lot of words to say that to construct a solution, you start by placing the 2 somewhere in the square, then the 4 on the same row/column, the 6 on the other row/column (of the 2), then place the 8 in a way that "completes the rectangle". (Hopefully this makes sense? It's a bit difficult to explain in words). Then you can fill in the rest of the values.
+This is a lot of words to say that to construct a solution, you start by placing the 2, 4, 6, and 8 as in configuration (A). Fill in the rest of the values. Then, you can swap rows, swap columns, and transpose solutions in order to get different configurations.
 
 I've added an interactive demo below for you to try out. Can you create your own magic square using the algorithm we've discussed?
 
