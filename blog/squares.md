@@ -124,11 +124,15 @@ We can easily solve $a = 15 - 6 - 2 = 7$ and similarly for $b$, $c$, and $e$. On
 | 4 | 3 | 8 |
 | 9 | 5 | 1 |
 
-Now, we have a magic square. (**!!!!**)
+Now, we have a semi-magic square: every row and column sums to 15 (we haven't checked the diagonals, and they don't have to work out).
 
-**Lemma 4**. Once you have a magic square, you can swap rows and columns while keeping their sums constant, due to commutativity of addition.
+***Lemma 4***. Starting from any valid square, swapping two rows, swapping two columns, or transposing the square (flipping the square along a diagonal) gives another valid square.
 
-This means that we can reduce all possible magic squares to one of the following representatives (of classes of solutions):
+***Proof***. Swapping two rows leaves the contents of every column unchanged, so the column sums are unchanged, and the row sums are the same numbers in a different order. The same goes for swapping two columns. Transposing just exchanges the roles of rows and columns. In every case, the six sums are still all 15.
+
+&#9632;
+
+By Lemma 3, the four even numbers must sit at the corners of a "rectangle": two rows by two columns. Using Lemma 4, we can swap that rectangle into the top-left corner, and swap the 2 into the very top-left cell. That leaves 3! = 6 ways to place 4, 6, and 8 around it. Transposing pairs these up, so we only need to look at three representatives (the other three are their transposes):
 
 (A)
 
@@ -154,15 +158,7 @@ This means that we can reduce all possible magic squares to one of the following
 | 6 | 4 | * |
 | * | * | * |
 
-(D)
-
-|   |   |   |
-|:-:|:-:|:-:|
-| 2 | 6 | * |
-| 8 | 4 | * |
-| * | * | * |
-
-Attempting to solve for each, we see that only type (A) is valid (try to complete the squares yourself). Therefore, the configuration
+Only type (A) is valid (to verify this, try completing all of the squares yourself and finding a contradiction in B and C). Therefore, the configuration
 
 |   |   |   |
 |:-:|:-:|:-:|
@@ -170,9 +166,9 @@ Attempting to solve for each, we see that only type (A) is valid (try to complet
 | 6 | 8 | * |
 | * | * | * |
 
-is the only valid configuration for the even numbers in a solution, up to symmetry.
+is the only valid configuration for the even numbers in a solution, up to swapping rows, swapping columns, and transposing.
 
-"Up to symmetry" means that you start by placing the 2, then the 4 on the same row/column, the 6 on the other row/column (of the 2), then place the 8 in a way that "completes the rectangle". (Hopefully this makes sense? It's a bit difficult to explain in words).
+This is a lot of words to say that to construct a solution, you start by placing the 2 somewhere in the square, then the 4 on the same row/column, the 6 on the other row/column (of the 2), then place the 8 in a way that "completes the rectangle". (Hopefully this makes sense? It's a bit difficult to explain in words).
 
 I've added an interactive demo below for you to try out. Can you create your own magic square using the algorithm we've discussed?
 
