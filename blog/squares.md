@@ -172,6 +172,8 @@ is the only valid configuration for the even numbers in a solution, up to swappi
 
 This is a lot of words to say that to construct a solution, you start by placing the 2, 4, 6, and 8 as in configuration (A). Fill in the rest of the values. Then, you can swap rows, swap columns, and transpose solutions in order to get different configurations.
 
+There are 3! = 6 permutations for rows, 6 permutations for columns, and 2 choices for transposition (transpose or not), leading to a grand total of $6 \cdot 6 \cdot 2 = 72$ possible variations that can be generated from configuration (A), which covers all possible solutions.
+
 I've added an interactive demo below for you to try out. Can you create your own magic square using the algorithm we've discussed?
 
 <style>
