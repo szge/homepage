@@ -4,10 +4,10 @@ all: $(POSTS)
 
 blog/%.html: blog/%.md blog/template.html
 	if grep -q '^title:' "$<"; then \
-		pandoc "$<" --template=blog/template.html -o "$@"; \
+		pandoc "$<" --mathjax --template=blog/template.html -o "$@"; \
 	else \
 		default_title=$$(echo "$*" | awk '{print toupper(substr($$0,1,1)) substr($$0,2)}'); \
-		pandoc "$<" --template=blog/template.html --metadata title="$$default_title" -o "$@"; \
+		pandoc "$<" --mathjax --template=blog/template.html --metadata title="$$default_title" -o "$@"; \
 	fi
 
 watch:
