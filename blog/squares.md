@@ -168,7 +168,7 @@ Only type (A) is valid (to verify this, try completing all of the squares yourse
 
 is the only valid configuration for the even numbers in a solution, up to swapping rows, swapping columns, and transposing.
 
-This is a lot of words to say that to construct a solution, you start by placing the 2 somewhere in the square, then the 4 on the same row/column, the 6 on the other row/column (of the 2), then place the 8 in a way that "completes the rectangle". (Hopefully this makes sense? It's a bit difficult to explain in words).
+This is a lot of words to say that to construct a solution, you start by placing the 2 somewhere in the square, then the 4 on the same row/column, the 6 on the other row/column (of the 2), then place the 8 in a way that "completes the rectangle". (Hopefully this makes sense? It's a bit difficult to explain in words). Then you can fill in the rest of the values.
 
 I've added an interactive demo below for you to try out. Can you create your own magic square using the algorithm we've discussed?
 
