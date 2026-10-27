@@ -126,17 +126,53 @@ We can easily solve $a = 15 - 6 - 2 = 7$ and similarly for $b$, $c$, and $e$. On
 
 Now, we have a magic square. (**!!!!**)
 
-**Caveat** We have now discovered a surprising fact, which is that in any solution, the even numbers must form a sort of square or rectangle inscribed in the larger square. However, during Step 2, we must avoid forming impossible constraints. Here's an example of what I mean:
+**Lemma 4**. Once you have a magic square, you can swap rows and columns while keeping their sums constant, due to commutativity of addition.
+
+This means that we can reduce all possible magic squares to one of the following representatives (of classes of solutions):
+
+(A)
 
 |   |   |   |
 |:-:|:-:|:-:|
-| 4 | a | 6 |
-| 2 | b | 8 |
-| c | d | e |
+| 2 | 4 | * |
+| 6 | 8 | * |
+| * | * | * |
 
-The above satisfies Lemma 3 but we also get a constradiction since this square requires that $a = b = 5$ which is impossible to satisfy due to all entries being unique. If avoid these sorts of contradictions in Step 2, we can construct all possible 3x3 semi-magic squares with the numbers 1-9.
+(B)
 
-**Final fun fact**. Once you have one magic square, you can swap rows and columns while keeping their sums constant, due to commutativity of addition.
+|   |   |   |
+|:-:|:-:|:-:|
+| 2 | 4 | * |
+| 8 | 6 | * |
+| * | * | * |
+
+(C)
+
+|   |   |   |
+|:-:|:-:|:-:|
+| 2 | 8 | * |
+| 6 | 4 | * |
+| * | * | * |
+
+(D)
+
+|   |   |   |
+|:-:|:-:|:-:|
+| 2 | 6 | * |
+| 8 | 4 | * |
+| * | * | * |
+
+Attempting to solve for each, we see that only type (A) is valid (try to complete the squares yourself). Therefore, the configuration
+
+|   |   |   |
+|:-:|:-:|:-:|
+| 2 | 4 | * |
+| 6 | 8 | * |
+| * | * | * |
+
+is the only valid configuration for the even numbers in a solution, up to symmetry.
+
+"Up to symmetry" means that you start by placing the 2, then the 4 on the same row/column, the 6 on the other row/column (of the 2), then place the 8 in a way that "completes the rectangle". (Hopefully this makes sense? It's a bit difficult to explain in words).
 
 I've added an interactive demo below for you to try out. Can you create your own magic square using the algorithm we've discussed?
 
