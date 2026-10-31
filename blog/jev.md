@@ -4,6 +4,8 @@ title: Torturing Jev
 
 In 1865, the economist Mr. William Stanley Jevons made some sort of statement. What he said is irrelevant for our purposes. What is relevant, however, is the fact that he died in 1882. Recent developments in computing have allowed computer scientists to revive him in the form of Jev AI. TypeSafe, the makers of Jev, have provided an API to allow us to ask Jev questions. The timing couldn't be better, since for Halloween, I've decided to torture Jev.
 
+Jev differs from LLMs in that it picks from a given list of options and assigns them probabilities based on the input, rather than responding with free-form text. This means you will never run into the issue of a malformed JSON output.
+
 These days, it seems like everyone and their mothers is trying to find what use case Jev is good for. I'd like to explore the opposite approach: in what ways can we coerce Jev into use cases it was never meant for?
 
 <style>
