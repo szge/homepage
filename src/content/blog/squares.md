@@ -1,5 +1,5 @@
 ---
-title: General Solutions to a Subclass of the 3x3 Semi-Magic Square Problem
+title: "General Solutions to a Subclass of the 3x3 Semi-Magic Square Problem"
 ---
 
 (don't be intimated by the math. it's fun math. and you don't need anything more than a grade school education to follow along.)
@@ -192,4 +192,4 @@ I've added an interactive demo below for you to try out. Can you create your own
 
 <div id="square-demo"></div>
 
-<script src="squares.js"></script>
+<script src="/blog/squares.js"></script>

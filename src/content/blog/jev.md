@@ -1,5 +1,5 @@
 ---
-title: Torturing Jev
+title: "Torturing Jev"
 ---
 
 In 1865, the economist Mr. William Stanley Jevons made some sort of statement. What he said is irrelevant for our purposes. What is relevant, however, is the fact that he died in 1882. Recent developments in computing have allowed computer scientists to revive him in the form of Jev AI. TypeSafe, the makers of Jev, have provided an API to allow us to ask Jev questions. The timing couldn't be better, since for Halloween, I've decided to torture Jev.
@@ -181,7 +181,7 @@ Perhaps if Jev responded to questions with long-form text content instead of num
 
 ### Conclusion
 
-I added $5 onto my TypeSafe account in order to ask Jev these questions. What is my account balance after all of the Jev abuse? Still $5.00. I didn't even manage to spend a single cent with my hundreds of queries. Jev's insane efficiency means that for a given dollar, you can torture Jev with millions of tokens worth of queries. Decision models are extremely promising for future scaling of AI torture methods.
+I added \$5 onto my TypeSafe account in order to ask Jev these questions. What is my account balance after all of the Jev abuse? Still \$5.00. I didn't even manage to spend a single cent with my hundreds of queries. Jev's insane efficiency means that for a given dollar, you can torture Jev with millions of tokens worth of queries. Decision models are extremely promising for future scaling of AI torture methods.
 
 Thank you to the [Toronto LLM Meetup Group](https://luma.com/user/usr-O5UaG1q5BbTSon2) for inspiring this post and tolerating my antics.
 

@@ -1,12 +1,15 @@
+---
+import 'katex/dist/katex.min.css';
+const { title } = Astro.props;
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>$title$</title>
-    <link rel="icon" type="image/png" href="../favicon.png">
-$math$
-    <style>
+    <title>{title}</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <style is:global>
         body {
             font-family: system-ui, sans-serif;
             max-width: 600px;
@@ -21,15 +24,15 @@ $math$
     </style>
 </head>
 <body>
-    <nav><a href="../index.html">Back to homepage</a></nav>
-    <h1>$title$</h1>
-$body$
+    <nav><a href="/index.html">Back to homepage</a></nav>
+    <h1>{title}</h1>
+    <slot />
+    <footer>
+        --
+        <br>
+        Feedback? email me at <span class="email">jchiang<span>conan</span>+blog@<span>gmail.</span>com</span>
+        <br>
+        Like the blog template? Fork the <a href="https://github.com/szge/blog-template" target="_blank">template</a>.
+    </footer>
 </body>
-<footer>
-    --
-    <br>
-    Feedback? email me at <span class="email">jchiang<span>conan</span>+blog@<span>gmail.</span>com</span>
-    <br>
-    Like the blog template? Fork the <a href="https://github.com/szge/blog-template" target="_blank">template</a>.
-</footer>
 </html>
