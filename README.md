@@ -1,26 +1,32 @@
-This is a personal fork of [szge/blog-template](https://github.com/szge/blog-template),
-the generic base scaffold. The template repo is wired up as the `upstream`
-git remote — pull in future scaffold improvements with:
-
-```
-git fetch upstream
-git merge upstream/main
-```
+Personal site built with [Astro](https://astro.build). Posts are Markdown with
+KaTeX math (`$...$`, `$$...$$`) and raw HTML/`<script>`/`<style>` allowed.
 
 ## Local development
 
-Requires pandoc and entr (`brew install pandoc entr`).
+Requires Node >= 22.12.
 
-Build all blog posts: `make`
+```
+npm install
+npm run dev      # http://localhost:4321
+npm run build    # outputs to dist/
+npm run preview
+```
 
-Rebuild from scratch: `make clean && make`
+## Writing a post
 
-Watch for changes: `make watch`
+Add `src/content/blog/<slug>.md` with a `title` in the frontmatter:
 
-Blog posts are written as `.md` files in `blog/`. The title is derived from the filename by default, but you can also declare a title by adding a `title: Your Title` line at the top of the file (a pandoc YAML metadata field).
+```
+---
+title: "My Post"
+---
+```
 
-Generated `.html` files in `blog/` are gitignored and are not committed.
+It is published at `/blog/<slug>.html`. Put images in `public/blog/images/` and
+reference them as `/blog/images/...`; an image alone on a line becomes a
+`<figure>` with its alt text as the caption. Escape literal dollar signs as `\$`.
+Then link the post from `src/pages/index.astro`.
 
 ## Production (Vercel)
 
-- Just add the project in Vercel and deploy — `vercel.json` runs `build.sh` on every deployment, which downloads a static pandoc binary and runs `make` to regenerate the blog HTML from markdown before the site is served. No extra configuration needed.
+Vercel auto-detects Astro (`npm run build`, output `dist/`). Only `dist/` is deployed.

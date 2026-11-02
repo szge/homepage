@@ -1,5 +1,5 @@
 ---
-title: Who has the funniest name?
+title: "Who has the funniest name?"
 ---
 
 [Preserved Fish](https://en.wikipedia.org/wiki/Preserved_Fish). Alexander Grothendieck. During my weekly trivia night (shoutout to our host Ryan), I was enlightened as to the existence of people with funny names. I thus endeavoured to find the person with the funniest name. I thought that it was definitely possible to write a program to aid me in this search. Apparently, I am the first person to use a programmatic approach to solve this problem (at least according to Claude), which comes as a shock to me, since the problem seems very tractable (when set up correctly).
@@ -10,7 +10,7 @@ All the code is open-source with an MIT license. You can get it [here](https://g
 
 **Associated Python notebook: `part1.ipynb`**
 
-We begin by defining what it means for a name to sound funny. I considered an approach involving the pronunciation of names, but this seems hard to compute; in addition to computing a pronunciation of a given name, we'd also have to decipher some sort of meaning from that. Consider the classic example name "Hugh Jass" -- it's not immediately obvious to me how to write a program to convert this to the phrase "Huge Ass". A further consideration is that we'd need to execute this at scale across millions of names$^1$.
+We begin by defining what it means for a name to sound funny. I considered an approach involving the pronunciation of names, but this seems hard to compute; in addition to computing a pronunciation of a given name, we'd also have to decipher some sort of meaning from that. Consider the classic example name "Hugh Jass" – it's not immediately obvious to me how to write a program to convert this to the phrase "Huge Ass". A further consideration is that we'd need to execute this at scale across millions of names$^1$.
 
 In Part 1, we progress by restricting ourselves to names that are composed of real, valid English words (e.g. "Signal Meta"). Depending on how big the result is, we can manually filter down to the funny ones, or use programmatic means to do so.
 
@@ -168,5 +168,5 @@ There are definitely many ways to take this concept further. We could use LLMs. 
 
 ### Addendum
 
-1. Feeding a batch of names into an LLM API and asking the question "are any of these names funny?" would require on the order of 2 billion tokens or about $200 using deepseek-v4-flash (quite a cheap model) to process all 500 million names in the names-dataset. Still a bit pricey. Also, LLMs are terrible when it comes to humour. Perhaps there's a cleverer way to do this?
+1. Feeding a batch of names into an LLM API and asking the question "are any of these names funny?" would require on the order of 2 billion tokens or about \$200 using deepseek-v4-flash (quite a cheap model) to process all 500 million names in the names-dataset. Still a bit pricey. Also, LLMs are terrible when it comes to humour. Perhaps there's a cleverer way to do this?
 2. Since I am on a Macbook I initially tried using the raw `/usr/share/dict/words` (a long list of words available on Unix-like systems) as our English dictionary. I soon discovered that I couldn't naively search if a word belonged in the list since the list lacks various modifications like verb tenses (e.g. it contains "jerk" but not "jerked"). Therefore, I had to switch to using the WordNet corpus via nltk which gives us access to more powerful tools.

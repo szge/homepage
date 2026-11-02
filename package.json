@@ -1,0 +1,20 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.19",
+    "astro": "^6.4.8",
+    "katex": "^0.19.1",
+    "mdast-util-from-markdown": "^2.0.0",
+    "rehype-katex": "^7.0.1",
+    "remark-math": "^6.0.0",
+    "unist-util-visit": "^5.0.0"
+  }
+}

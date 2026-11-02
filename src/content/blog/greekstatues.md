@@ -1,5 +1,5 @@
 ---
-title: About 38% of Greek Statues are Male
+title: "About 38% of Greek Statues are Male"
 ---
 
 I was recently intrigued by the following [Asmongold tweet](https://x.com/Asmongold/status/2060392930695643535?s=20):
@@ -46,6 +46,7 @@ Results
 | boy     | 162   |
 | man     | 860   |
 | male    | 2,884 |
+
 We get a final count of 2617 females (40%) and 3906 males (60%). Interestingly, most of the females are linked to the keyword "woman", but most of of the males are linked to the keyword "male" (rather than "man"); not sure why this would be the case. There are a couple caveats to talk about here. There is probably some decent overlap in this data, for example with some objects containing both keywords "girl" and "woman" in their description being counted twice. Double-counting likely skews the calculation towards a 50/50 ratio. Secondly, objects like [Stone votive relief of male genitalia](https://www.metmuseum.org/art/collection/search/244055) are included, which we can choose whether to include or exclude from a proper counting; we may decide this doesn't constitute a proper statue. In this case, it would probably be somewhat difficult to filter out such cases without manually going through the dataset, and I'm not really opposed to keeping it in the counting (since it does depict a part of a man). Additionally, this dataset also includes things like pottery. If we filter to strictly the "sculpture" category, we get 160 results for girl/woman/female (70%) and 67 results for boy/man/male (30%) but this is a very low sample size.
 
 Side tangent: I find it interesting how [herms](https://en.wikipedia.org/wiki/Herm_(sculpture)) (squared stone pillar with a head on top) most often had male genitalia carved on the front (and very little else, apart from perhaps text). This could be because they often depicted Hermes, who is associated with fertility. Google "Greek herm" to see a lot of penises.

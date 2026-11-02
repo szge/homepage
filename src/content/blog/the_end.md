@@ -1,5 +1,5 @@
 ---
-title: How to Cope with the Destruction of Everything you Know and Love
+title: "How to Cope with the Destruction of Everything you Know and Love"
 ---
 
 (read this on [LessWrong](https://www.lesswrong.com/posts/TbWBCgXgYdn778KFn/how-to-cope-with-the-destruction-of-everything-you-know-and))
